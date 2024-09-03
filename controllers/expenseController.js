@@ -1,7 +1,8 @@
 const Transaction = require('../models/Transaction');
 const Price = require('../models/Price');
+const logger = require('../utils/logger');
 
-// Function to calculate total expenses for a given address
+
 const calculateTotalExpenses = async (address) => {
   try {
     // Fetch all transactions for the given address

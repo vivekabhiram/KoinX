@@ -1,6 +1,6 @@
 const express = require('express');
-const { getTransactions } = require('../controllers/transactionsController.js');
-const { getUserExpensesAndPrice } = require('../controllers//expenseController.js');
+const { getTransactions } = require('../../controllers/transactionsController.js');
+const { getUserExpensesAndPrice } = require('../../controllers/expenseController.js');
 
 const router = express.Router();
 

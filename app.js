@@ -3,6 +3,7 @@ const connectDB = require('./config/db');
 const transactionsRoute = require('./server/routes/transactions.js');
 const { fetchAndStorePrice } = require('./controllers/priceController');
 const cron = require('node-cron');
+const logger = require('./utils/logger');
 //const expressLayout = require('expres-ejs-layouts');
 require('dotenv').config();
 

@@ -1,5 +1,6 @@
 const axios = require('axios');
 const Price = require('../models/Price');
+const logger = require('../utils/logger');
 
 // Controller function to fetch and store Ethereum price
 const fetchAndStorePrice = async () => {

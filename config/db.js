@@ -1,4 +1,4 @@
-const logger = require('C:\\Users\\LENOVO\\Desktop\\KoinX\\KoinXAssignment\\utils\\logger.js');
+const logger = require('../utils/logger');
 const mongoose = require('mongoose');
 
 const connectDB = async () => {
